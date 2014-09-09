@@ -1,0 +1,160 @@
+/* Index Page */
+
+
+body {
+	margin: 0; auto;
+	background-color: white;
+}
+
+header {
+	background: black;
+	color: white;
+	padding: 40px 10px 40px 10px;
+}
+
+nav {
+	display: inline;
+}
+
+nav a {
+	vertical-align: center;
+	float: right;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	background-color: green;
+	color: white;
+	position: relative;
+}
+
+#two-col-layout {
+	max-width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.two-col-1 {
+	text-align: left;
+	width: 45%;
+	min-width: 300px;
+	min-height: 400px;
+	background: green;
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	margin: 10px;
+}
+
+.two-col-2 {
+	text-align: left;
+	width: 45%;
+	min-width: 300px;
+	min-height: 400px;
+	vertical-align: top;
+	background: blue;
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+.modules-treatments {
+	font-size: 14px;
+	display: inline-block;
+	color: white;
+	padding: 2px;
+}
+
+.tags {
+	background-color: white;
+	text-decoration: none;
+	padding: 4px;
+	margin: 4px;
+	border-radius: 4px;
+}
+
+ul a {
+	text-decoration: none;
+}
+
+
+
+footer {
+	background-color: #A9A9A9;
+	color: #FFFFFF;
+	vertical-align: bottom;
+	height: 300px;
+}
+
+/*special rules */
+
+.span_rules {
+	color: red;
+	font-size: 2em;
+}
+
+/* Image Gallery Page*/
+
+#gallery-wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5% 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* float to make pictures appear side by side
+each image will take up 45% of it's parent element
+2.5px margin on every side*/
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #F5F5F5;
+	color: white;
+	list-style: none;
+
+}
+
+
+
+/* responsive design */
+
+
+@media (max-width: 856px) {
+	.two-col-layout {
+		max-width: 856px;
+	}
+}
+
+@media (max-width: 856px) {
+	.two-col-1 {
+		width: 85%;
+	}
+}
+
+@media (max-width: 856px) {
+	.two-col-2 {
+		width: 85%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
